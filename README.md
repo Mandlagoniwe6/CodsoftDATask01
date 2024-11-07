@@ -49,10 +49,16 @@ Logistic Regression: Achieved an accuracy of approximately 0.81.
 Random Forest: Achieved an accuracy of approximately 0.83 and provided additional insights into feature importance.
 Random Forest generally performed better on cross-validation, showing its suitability for this dataset.
 
-#Key Findings: 
-Gender and Socio-Economic Status (Passenger Class) played a significant role in survival rates.
-Fare and Age also provided useful insights, with younger passengers and those with higher fares showing higher survival probabilities.
-Feature importance analysis revealed that Pclass, Sex, and Fare were the most influential factors in predicting survival.
+#Summary of Findings According To How I Analyzed The Data
+Factors Influencing Survival:
+Sex: Women had a significantly higher survival rate than men. Sex was one of the most influential factors, 
+with females being more likely to survive.
+Age: Younger passengers, especially children, had higher survival rates, as age played a role in survival chances.
+Socio-Economic Class (Pclass): Passengers in higher classes, especially those in first class, had better survival rates. 
+This aligns with the prioritization during evacuation.
+Fare: Passengers who paid higher fares, often correlating with higher socio-economic classes, tended to survive at higher rates.
+Siblings/Spouses (SibSp): Passengers with a small number of family members on board (like one or two siblings or spouses) 
+showed a slightly higher survival rate.
 
 #Visualizations: 
 The analysis includes several visualizations to illustrate key findings:
